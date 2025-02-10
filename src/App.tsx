@@ -71,13 +71,13 @@ function App() {
             {isValentine ? (
                 <>
                     <h2 className="title"> хихи, </h2>
-                    <h2 className="title"> ты мне тоже &hearts; </h2>
+                    <h1 className="title"> ты мне тоже &hearts; </h1>
                     <img alt="cat animation" src={catAnimation} />
                 </>
             ) : (
                 <>
                     <h2 className="valentine"> Риночка, </h2>
-                    <h1 className="title" font weight = bolder>Я дорог тебе?</h1>
+                    <h1 className="title">Я дорог тебе?</h1>
                     <button
                         style={stylesBtnAgree}
                         onClick={agree}
