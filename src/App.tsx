@@ -70,13 +70,14 @@ function App() {
         <div className="main">
             {isValentine ? (
                 <>
-                    <h2 className="title"> хихи, ты мне тоже &hearts; </h2>
+                    <h2 className="title"> хихи, </h2>
+                    <h2 className="title"> ты мне тоже &hearts; </h2>
                     <img alt="cat animation" src={catAnimation} />
                 </>
             ) : (
                 <>
-                    <h2 className="title"> Риночка, </h2>
-                    <h1 className="valentine">Я дорог тебе?</h1>
+                    <h2 className="valentine"> Риночка, </h2>
+                    <h1 className="title" font weight = bolder>Я дорог тебе?</h1>
                     <button
                         style={stylesBtnAgree}
                         onClick={agree}
